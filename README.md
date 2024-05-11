@@ -8,6 +8,7 @@ bisa di download melalui link berikut ini :
 ***Langkah Penggunaan*** :
 1. Buat database baru dengan nama 'perpus-kp.sql' pada localhost:phpmyadmin
 2. Import database 'perpus-kp.sql' dari folder 'db sql'
+   
 
 ***Login Admin*** :
 username : admin
@@ -15,8 +16,9 @@ password : admin123
 
 ***Login User*** :
 username : user
-password : user123
+password : user
 Jika error login untuk admin maupun user silahkan mengubah password secara langsung pada database.
+Jika tidak terdapat opsi untuk merubah langsung pada database, itu dikarenakan tidak ada PK (PrimaryKey) pada masing-masing table jadi kolom id pada masing-masing table harus di ubah menjadi primary key.
 
 ***Fitur (Admin)*** :
 1. Login
