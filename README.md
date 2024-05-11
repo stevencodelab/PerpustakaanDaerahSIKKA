@@ -17,8 +17,9 @@ password : admin123
 ***Login User*** :
 username : user
 password : user
-Jika error login untuk admin maupun user silahkan mengubah password secara langsung pada database.
-Jika tidak terdapat opsi untuk merubah langsung pada database, itu dikarenakan tidak ada PK (PrimaryKey) pada masing-masing table jadi kolom id pada masing-masing table harus di ubah menjadi primary key.
+
+`Jika error login untuk admin maupun user silahkan mengubah password secara langsung pada database.`
+`Jika tidak terdapat opsi untuk merubah langsung pada database, itu dikarenakan tidak ada PK (PrimaryKey) pada masing-masing table jadi kolom id pada masing-masing table harus di ubah menjadi primary key.`
 
 ***Fitur (Admin)*** :
 1. Login
